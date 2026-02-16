@@ -19,7 +19,7 @@ def texto(msg=0):
 
 
 def opcao(lista):
-    texto('MENU PRINCIPAL')
+    texto('CALCULADORA')
     c = 1
     for item in lista:
         print(f'{c} {item}')
