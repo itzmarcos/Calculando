@@ -19,7 +19,7 @@ def texto(msg=0):
 
 
 def opcao(lista):
-    texto('CALCULADORA')
+    texto('\033[36mCALCULADORA\033[m')
     c = 1
     for item in lista:
         print(f'{c} {item}')
